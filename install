@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+case "$1" in
+  "port")
+    cd ./port-discovery/
+    go install
+    ;;
+
+  *)
+   echo "Invalid option" 
+    ;;
+esac
+
+
